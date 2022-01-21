@@ -150,3 +150,30 @@ Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/s
 [INFO] Finished at: 2022-01-21T19:55:32+01:00
 [INFO] ------------------------------------------------------------------------
 
+## Comandos adicionales a probar
+· git branch: ayuda a crear, eliminar y enumerar ramas. Las ramas son un puntero eficaz para las instantáneas
+de tus cambios. Cuando se quiere añadir una nueva función o solucionar un error, independientemente de su
+tamaño, se genera una nueva rama para alojar estos cambios.
+
+Logs:
+
+* main
+
+· git fetch: se encarga de descargar commits, archivos y referencias de un repositorio remoto al repositorio
+local. Esta acción se lleva a cabo cuando se quiere ver en qué han estado trabajando los demás usuarios. Permite
+que la recuperación constituya una forma segura de revisar commits antes de integrarlos en tu repositorio local.
+
+· git merge: permite tomar las líneas independientes de desarrollo creadas por git branch e integrarlas en una
+sola rama.
+
+Logs:
+
+Already up to date.
+
+· git pull: se emplea para extraer y descargar contenido desde un repositorio remoto y actualizar al instante
+el repositorio local para reflejar ese contenido. Este comando es, en realidad, una combinación de dos comandos,
+git fetch seguido de git merge.
+
+Logs:
+
+Already up to date.
