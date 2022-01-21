@@ -1,0 +1,60 @@
+# Práctica 1
+
+## Comandos a probar
+· git clone: se usa para copiar un repositorio de Git existente en un nuevo directorio local.
+De esta manera se creará un nuevo directorio local para el repositorio, se copiará todo el
+contenido del repositorio especificado y se creará las sucursales remotas rastreadas y
+extraerá una sucursal inicial localmente.
+
+Logs:
+
+Cloning into 'hello-world'...
+remote: Enumerating objects: 41, done.
+remote: Counting objects: 100% (41/41), done.
+remote: Compressing objects: 100% (24/24), done.
+remote: Total 41 (delta 2), reused 34 (delta 1), pack-reused 0
+Receiving objects: 100% (41/41), 59.24 KiB | 1.56 MiB/s, done.
+Resolving deltas: 100% (2/2), done.
+
+· git status: permite mostrar el estado del directorio de trabajo y del área del entorno
+de ensayo. Se pueden ver los cambios que se han preparado y los archivos en los que Git
+no va a realizar el seguimiento.
+
+Logs:
+
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   Practica1.txt
+        new file:   hello-world
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   Practica1.txt
+        deleted:    hello-world
+
+· git add: selecciona el archivo especificado y lo mueve al área de preparación, marcándolo para
+incluirlo en la próxima confirmación. Se puede seleccionar todos los archivos (.), un directorio,
+archivos específicos o incluso partes específicas de un archivo para preparar y confirmar
+
+Logs:
+
+warning: adding embedded git repository: hello-world
+hint: You've added another git repository inside your current repository.
+hint: Clones of the outer repository will not contain the contents of
+hint: the embedded repository and will not know how to obtain it.
+hint: If you meant to add a submodule, use:
+hint:
+hint:   git submodule add <url> hello-world
+hint:
+hint: If you added this path by mistake, you can remove it from the
+hint: index with:
+hint:
+hint:   git rm --cached hello-world
+hint:
+hint: See "git help submodule" for more information.
+
+
