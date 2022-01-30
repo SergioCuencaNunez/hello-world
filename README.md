@@ -10,7 +10,7 @@ Un repositorio para empezar a usar Github y Github Actions con Java
 
 ## Comandos a probar
 
-### Git clone
+### Git clones
 
 Se usa para copiar un repositorio de Git existente en un nuevo directorio local. De esta manera se creará un nuevo directorio local para el repositorio, se copiará todo el contenido del repositorio especificado y se creará las sucursales remotas rastreadas y extraerá una sucursal inicial localmente.
 
