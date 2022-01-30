@@ -69,15 +69,15 @@ Se usa para cargar contenido del repositorio local a un repositorio remoto. El e
 
 #### Logs:
 
-``Enumerating objects: 3, done.
-Counting objects: 100% (3/3), done.
+``Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
 Delta compression using up to 10 threads
-Compressing objects: 100% (2/2), done.
-Writing objects: 100% (2/2), 261 bytes | 261.00 KiB/s, done.
-Total 2 (delta 1), reused 0 (delta 0), pack-reused 0
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 3.08 KiB | 3.08 MiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
 remote: Resolving deltas: 100% (1/1), completed with 1 local object.
-To https://github.com/SergioCuencaNunez/hello-world.git
-e401776..1805845  main -> main``
+To https://github.com/SergioCuencaNunez/hello-world
+1805845..df8af44  main -> main``
 
 ### Git checkout
 Cambiar entre diferentes versiones de una entidad objetivo. Opera sobre tres entidades distintas: archivos, confirmaciones y ramas.
